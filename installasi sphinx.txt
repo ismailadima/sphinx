@@ -1,0 +1,21 @@
+Tutorial sphinx pada windows :
+
+- download sphinx dari http://sphinxsearch.com/downloads/current/
+
+- copy sphinx yang telah didownload ke directory c:/
+
+- copy file sphinx-min.conf dan simpan dengan nama sphinx.conf
+
+- edit file sphinx.conf, sesuaikan dengan pengaturan database yang digunakan
+
+- jalankan cmd sebagai administrator (Run as Administrator)
+
+- masuk ke directory sphinx/bin
+
+- buat service baru dengan perintah "searchd --install --config c:/sphinx/sphinx.conf --servicename yourservicename
+
+- jalankan service yang baru dibuat
+
+- jalankan sphinx dengan perintah "indexer --rotate --all --config c:/sphinx/sphinx.conf"
+
+- sphinx siap digunakan
