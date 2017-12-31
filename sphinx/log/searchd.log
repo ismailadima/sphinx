@@ -1,0 +1,64 @@
+[Fri Dec 29 09:20:52.036 2017] [2472] listening on all interfaces, port=9312
+[Fri Dec 29 09:20:52.038 2017] [2472] listening on all interfaces, port=9306
+[Fri Dec 29 09:20:52.045 2017] [2472] WARNING: index 'test1': prealloc: failed to open C:/sphinx/data/test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 29 09:20:52.108 2017] [2472] accepting connections
+[Fri Dec 29 09:20:52.109 2017] [1960] prereading 1 indexes
+[Fri Dec 29 09:20:52.109 2017] [1960] prereaded 1 indexes in 0.000 sec
+[Fri Dec 29 09:37:53.676 2017] [2472] rt: index testrt: ramchunk saved in 0.011 sec
+[Fri Dec 29 09:37:53.786 2017] [2472] shutdown complete
+[Fri Dec 29 09:39:58.369 2017] [5704] listening on all interfaces, port=9312
+[Fri Dec 29 09:39:58.371 2017] [5704] listening on all interfaces, port=9306
+[Fri Dec 29 09:39:58.373 2017] [5704] WARNING: index 'test1': prealloc: failed to open C:/sphinx/data/test1.sph: No such file or directory; NOT SERVING
+[Fri Dec 29 09:39:58.391 2017] [4804] prereading 1 indexes
+[Fri Dec 29 09:39:58.391 2017] [5704] accepting connections
+[Fri Dec 29 09:39:58.391 2017] [4804] prereaded 1 indexes in 0.000 sec
+[Fri Dec 29 09:52:46.978 2017] [5704] rt: index testrt: ramchunk saved in 0.020 sec
+[Fri Dec 29 09:52:47.013 2017] [5704] shutdown complete
+[Fri Dec 29 10:51:20.702 2017] [3912] listening on all interfaces, port=9312
+[Fri Dec 29 10:51:20.705 2017] [3912] listening on all interfaces, port=9306
+[Fri Dec 29 10:51:20.787 2017] [3912] WARNING: index 'test1': lock: failed to lock C:/sphinx/data/test1.spl: Bad file descriptor; INDEX UNUSABLE
+[Fri Dec 29 10:51:20.800 2017] [3912] accepting connections
+[Fri Dec 29 10:51:20.804 2017] [4752] prereading 1 indexes
+[Fri Dec 29 10:51:20.804 2017] [4752] prereaded 1 indexes in 0.000 sec
+[Fri Dec 29 10:54:04.161 2017] [3912] rt: index testrt: ramchunk saved in 0.014 sec
+[Fri Dec 29 10:54:04.231 2017] [3912] shutdown complete
+[Fri Dec 29 11:14:11.862 2017] [6028] listening on all interfaces, port=9312
+[Fri Dec 29 11:14:11.864 2017] [6028] listening on all interfaces, port=9306
+[Fri Dec 29 11:14:11.922 2017] [6028] rotating index 'test1': success
+[Fri Dec 29 11:14:11.939 2017] [6028] accepting connections
+[Fri Dec 29 11:14:11.940 2017] [5240] prereading 1 indexes
+[Fri Dec 29 11:14:12.196 2017] [5240] prereaded 1 indexes in 0.256 sec
+[Fri Dec 29 11:14:43.816 2017] [6028] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Fri Dec 29 11:14:43.856 2017] [796] rotating index 'test1': started
+[Fri Dec 29 11:14:43.959 2017] [796] rotating index 'test1': success
+[Fri Dec 29 11:14:43.959 2017] [796] rotating index: all indexes done
+[Sun Dec 31 20:41:34.533 2017] [2056] listening on all interfaces, port=9312
+[Sun Dec 31 20:41:34.537 2017] [2056] listening on all interfaces, port=9306
+[Sun Dec 31 20:41:34.592 2017] [2056] WARNING: index 'test1': lock: failed to lock C:/sphinx/data/test1.spl: Bad file descriptor; INDEX UNUSABLE
+[Sun Dec 31 20:41:34.597 2017] [2056] accepting connections
+[Sun Dec 31 20:41:34.597 2017] [3384] prereading 0 indexes
+[Sun Dec 31 20:41:34.597 2017] [3384] prereaded 0 indexes in 0.000 sec
+------- FATAL: CRASH DUMP -------
+[Sun Dec 31 20:50:04.286 2017] [ 5792]
+
+--- crashed SphinxAPI request dump ---
+
+--- request dump end ---
+Sphinx 2.3.2-id64-beta (4409612)
+minidump located at:  C:/sphinx/log/searchd.pid.5792.00000000.mdmp
+--- 0 active threads ---
+------- CRASH DUMP END -------
+[Sun Dec 31 20:53:38.585 2017] [5512] listening on all interfaces, port=9312
+[Sun Dec 31 20:53:38.587 2017] [5512] listening on all interfaces, port=9306
+[Sun Dec 31 20:53:38.649 2017] [5512] rotating index 'test1': success
+[Sun Dec 31 20:53:38.655 2017] [5512] binlog: replaying log C:/sphinx/data/binlog.001
+[Sun Dec 31 20:53:38.673 2017] [5512] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Dec 31 20:53:38.673 2017] [5512] binlog: finished replaying C:/sphinx/data/binlog.001; 0.0 MB in 0.000 sec
+[Sun Dec 31 20:53:38.674 2017] [5512] binlog: finished replaying total 1 in 0.018 sec
+[Sun Dec 31 20:53:38.681 2017] [4252] prereading 1 indexes
+[Sun Dec 31 20:53:38.681 2017] [5512] accepting connections
+[Sun Dec 31 20:53:38.910 2017] [4252] prereaded 1 indexes in 0.229 sec
+[Sun Dec 31 20:54:37.108 2017] [5512] caught SIGHUP (seamless=1, in_rotate=0, need_rotate=0)
+[Sun Dec 31 20:54:37.136 2017] [5172] rotating index 'test1': started
+[Sun Dec 31 20:54:37.220 2017] [5172] rotating index 'test1': success
+[Sun Dec 31 20:54:37.220 2017] [5172] rotating index: all indexes done
