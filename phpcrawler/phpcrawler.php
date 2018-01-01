@@ -82,7 +82,7 @@ class MyCrawler extends PHPCrawler
 			//echo "konten = ".$konten.$lb;
 			//echo $body.$lb;
 			//if($body){
-				//$insert = mysql_query("INSERT INTO documents(id,link,keywords,description,content,title,category_id,hosting_id) VALUES ('','$pageUrl','$keywords','$description','$konten','$title','7','7')");
+				//$insert = mysql_query("INSERT INTO documents(id,link,keywords,description,content,title) VALUES ('','$pageUrl','$keywords','$description','$konten','$title')");
 				//if($insert){
 					//echo "insert berhasil".$lb;
 				//}else{
