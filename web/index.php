@@ -44,7 +44,9 @@ if(isset($_GET['q'])){
     <br>
     <div class="container">
       <div class="list-group">
-      <?php if($data['total_found']!= '0'){ 
+      <?php 
+	  if($data['total_found']!=NULL){
+		if($data['total_found']!= '0'){ 
         $matches = $data['matches'];
           foreach ($matches as $match) {
       ?>
@@ -64,6 +66,7 @@ if(isset($_GET['q'])){
       ?>
       </div>
     </div>
+	<?php }?>
     <script src="bootstrap/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
